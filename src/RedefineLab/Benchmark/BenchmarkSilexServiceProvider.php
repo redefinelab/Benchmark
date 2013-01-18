@@ -12,7 +12,7 @@ class BenchmarkSilexServiceProvider implements \Silex\ServiceProviderInterface
 
     public function register(\Silex\Application $app)
     {
-        $app['uuid'] = $app->share(function () use ($app) {
+        $app['benchmark'] = $app->share(function () use ($app) {
             return new Benchmark();
         });
     }
