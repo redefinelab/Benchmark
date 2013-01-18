@@ -1,5 +1,5 @@
 {
-    "name": "redefinelab/uuid",
+    "name": "redefinelab/benchmark",
     "description": "A simple benchmark class.",
     "require": {
         "php": ">=5.3.3"
